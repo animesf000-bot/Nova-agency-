@@ -1,1 +1,151 @@
-# Nova-agency-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Brands | Premium Web Design</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #0f172a; color: #f8fafc; scroll-behavior: smooth; }
+        header { padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; background: rgba(15, 23, 42, 0.95); position: fixed; width: 100%; top: 0; z-index: 1000; box-sizing: border-box; border-bottom: 1px solid #1e293b;}
+        .logo { font-size: 1.5rem; font-weight: bold; color: #38bdf8; letter-spacing: 1px; }
+        nav a { color: #cbd5e1; margin-left: 25px; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: #38bdf8; }
+        .hero { padding: 160px 20px 100px; text-align: center; background: radial-gradient(circle at top, #1e293b, #0f172a); }
+        h1 { font-size: 3.5rem; color: #ffffff; margin-bottom: 20px; line-height: 1.2; }
+        h1 span { color: #38bdf8; }
+        p.subtitle { font-size: 1.2rem; max-width: 600px; margin: 0 auto 40px; line-height: 1.6; color: #94a3b8;}
+        .btn { background: #38bdf8; color: #0f172a; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 8px; font-size: 1.1rem; transition: background 0.3s; display: inline-block; }
+        .btn:hover { background: #0ea5e9; }
+        .section { padding: 80px 50px; max-width: 1200px; margin: 0 auto; text-align: center; }
+        .section h2 { font-size: 2.5rem; margin-bottom: 50px; color: #f8fafc; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: #1e293b; padding: 40px 30px; border-radius: 12px; border: 1px solid #334155; text-align: left; transition: transform 0.3s, border-color 0.3s; }
+        .card:hover { transform: translateY(-5px); border-color: #38bdf8; }
+        .card h3 { color: #f8fafc; margin-top: 0; font-size: 1.4rem; }
+        .card p { color: #94a3b8; line-height: 1.6; margin-bottom: 0; }
+        .price { font-size: 2.5rem; font-weight: bold; color: #ffffff; margin: 15px 0; }
+        .features { list-style: none; padding: 0; margin-top: 20px; color: #cbd5e1; }
+        .features li { margin-bottom: 10px; position: relative; padding-left: 25px; }
+        .features li::before { content: '✓'; position: absolute; left: 0; color: #38bdf8; font-weight: bold; }
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; background: #25d366; color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.3); z-index: 1000; display: flex; align-items: center; gap: 10px; transition: transform 0.3s; }
+        .whatsapp-float:hover { transform: scale(1.05); }
+        footer { text-align: center; padding: 50px 20px; background: #020617; border-top: 1px solid #1e293b;}
+        footer h2 { margin-top: 0; }
+        
+        @media (max-width: 768px) {
+            header { flex-direction: column; padding: 20px; }
+            nav { margin-top: 15px; }
+            nav a { margin: 0 10px; }
+            h1 { font-size: 2.5rem; }
+            .section { padding: 60px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ElevateBrands.</div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Our Work</a>
+            <a href="#packages">Pricing</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Premium Web Design <br><span>& Branding Agency</span></h1>
+        <p class="subtitle">We help businesses in the USA, Canada, and Australia stand out with high-converting websites and world-class digital identities.</p>
+        <a href="#packages" class="btn">View Our Packages</a>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Core Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>💻 Web Design & Dev</h3>
+                <p>Custom, fast-loading, and responsive websites engineered to turn your international visitors into paying clients.</p>
+            </div>
+            <div class="card">
+                <h3>🎨 Brand Identity</h3>
+                <p>Complete branding packages including premium logos, typography, and color systems that build instant trust.</p>
+            </div>
+            <div class="card">
+                <h3>🎥 Media & Content</h3>
+                <p>Engaging promotional content and visual storytelling designed to capture attention across all social media platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section" style="background: #020617; max-width: 100%; border-top: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2>Recent Projects</h2>
+            <div class="grid">
+                <div class="card" style="background: #0f172a;">
+                    <h3>Crispy Burger Co. (USA)</h3>
+                    <p>Developed a full web presence alongside an ultra-premium cinematic slow-motion food commercial video featuring their signature crispy chicken burger.</p>
+                </div>
+                <div class="card" style="background: #0f172a;">
+                    <h3>AudioWave Studios (CAN)</h3>
+                    <p>Designed a dark-themed branding package and produced custom lyric videos tailored specifically to individual upcoming artist tracks.</p>
+                </div>
+                <div class="card" style="background: #0f172a;">
+                    <h3>Sydney Real Estate (AUS)</h3>
+                    <p>Created a high-converting landing page to generate premium property leads, complete with automated booking systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="section">
+        <h2>Transparent Pricing Packages</h2>
+        <div class="grid">
+            <div class="card" style="border-top: 4px solid #94a3b8;">
+                <h3>The Startup</h3>
+                <div class="price">$999</div>
+                <p>Perfect for new businesses needing a professional and trustworthy launch.</p>
+                <ul class="features">
+                    <li>Custom Logo Design</li>
+                    <li>3-Page Responsive Website</li>
+                    <li>Mobile Optimization</li>
+                    <li>Contact Form Integration</li>
+                    <li>1 Week Delivery</li>
+                </ul>
+            </div>
+            <div class="card" style="border-top: 4px solid #38bdf8; transform: scale(1.03); background: #1a2235;">
+                <h3 style="color: #38bdf8;">Brand Transformation</h3>
+                <div class="price">$2,499</div>
+                <p>For established businesses ready to scale in Tier-1 markets.</p>
+                <ul class="features">
+                    <li>Premium Brand Identity (Full Kit)</li>
+                    <li>Up to 10-Page Custom Website</li>
+                    <li>Social Media Graphics</li>
+                    <li>Advanced SEO Setup</li>
+                    <li>Priority Support</li>
+                </ul>
+            </div>
+            <div class="card" style="border-top: 4px solid #facc15;">
+                <h3>Digital Dominance</h3>
+                <div class="price">$4,999+</div>
+                <p>A comprehensive digital overhaul for market leaders.</p>
+                <ul class="features">
+                    <li>Everything in Brand Transformation</li>
+                    <li>Full E-commerce Functionality</li>
+                    <li>Promo Video Production Integration</li>
+                    <li>Custom Animations</li>
+                    <li>Dedicated Account Manager</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Ready to Elevate Your Brand?</h2>
+        <p style="color: #94a3b8; margin-bottom: 30px;">Let's discuss your project. We work with clients globally.</p>
+        <p style="color: #475569; font-size: 0.9rem;">&copy; 2026 ElevateBrands Agency. All rights reserved.</p>
+    </footer>
+
+    <!-- WhatsApp CTA Button -->
+    <a href="https://wa.me/1234567890?text=Hi!%20I%20saw%20your%20portfolio.%20I%20need%20a%20website%20for%20my%20business." class="whatsapp-float" target="_blank">
+        <span style="font-size: 1.5rem;">📱</span> Chat with us
+    </a>
+</body>
+</html>
